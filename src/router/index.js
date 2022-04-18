@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomePage from '../page/HomePage.vue'
+import OtelimizPage from '../page/OtelimizPage.vue'
+import OdalarimizPage from '../page/OdalarimizPage.vue'
+import AktivitelerPage from '../page/AktivitelerPage.vue'
+import GaleriPage from '../page/GaleriPage.vue'
+import IletisimPage from '../page/IletisimPage.vue'
 
 Vue.use(VueRouter)
 
@@ -8,20 +13,45 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomePage
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/otelimiz',
+    name: 'otelimiz',
+    component: OtelimizPage
+  },
+  {
+    path: '/odalar',
+    name: 'odalar',
+    component: OdalarimizPage
+  },
+  {
+    path: '/aktiviteler',
+    name: 'aktiviteler',
+    component: AktivitelerPage
+  },
+  {
+    path: '/galeri',
+    name: 'galeri',
+    component: GaleriPage
+  },
+  {
+    path: '/iletisim',
+    name: 'iletisim',
+    component: IletisimPage
+  },
+  {
+    path: '*',
+    redirect:"/"
   }
 ]
 
 const router = new VueRouter({
-  routes
+  mode: 'history',
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
 
 export default router

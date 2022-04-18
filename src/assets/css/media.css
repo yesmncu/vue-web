@@ -1,0 +1,300 @@
+@media only screen and (max-width:1700px){
+:root{--HeaderHeight:110px}
+.homeScrollDown{left:30px}
+.titleStyle>strong{font-size:52px}
+.topMenu>ul>li>a{font-size:22px}
+.logo{width:165px}
+.homeTrailerText>strong{font-size:52px;line-height:56px}
+.homeTrailerText>p{font-size:16px;line-height:29px}
+.homeTrailerBg{height:600px}
+.titleStyle>p{font-size:18px}
+.homeRoomSlide{margin-top:40px}
+.homeCommentSect .titleStyle>strong{font-size:42px}
+.homeActiviteList{height:600px}
+.homeSlide .item .slogan>strong{font-size:60px}
+.homeSlide .item .slogan>span{font-size:16px}
+.homeSect1 .slideCounter{font-size:40px}
+.headerBanner .headTitle{font-size:42px}
+.activitiesPage ul>li .text>strong{font-size:32px}
+.activitiesPage ul>li .text>p{font-size:16px;margin-bottom:20px}
+}
+@media only screen and (max-width:1500px){
+.logo{width:150px}
+.topMenu>ul{gap:40px}
+.topMenu>ul>li>a{font-size:20px}
+.headerResBtn>a{font-size:15px;padding:10px 22px}
+.topMenu>ul>li>.subMenu>ul>li>a{font-size:16px}
+.homeScrollDown{left:20px}
+.titleStyle>strong{font-size:46px}
+.titleStyle>p{font-size:16px}
+.homeRoomSlide .owl-nav .owl-next{right:-40px}
+.homeRoomSlide .owl-nav .owl-prev{left:-40px}
+.roomItem>a>.bottomText>.title>strong{font-size:22px}
+.roomItem>a>.bottomText>.title>span{font-size:12px}
+.roomItem>a>.bottomText>.price>.priceActive>strong{font-size:30px}
+.roomItem>a>.bottomText>.price>span{font-size:22px}
+.roomItem>a>.bgHidden>.bg{height:320px}
+.homeActiviteList>li>a>.text>strong{font-size:24px}
+.homeActiviteList>li>a>.text>p{font-size:14px}
+.homeActiviteList>li>a>.text{bottom:-50px}
+.footerLogo>p{font-size:14px;line-height:24px;width:350px}
+.footerContact{width:250px}
+.footerContact>ul>li>a{font-size:14px}
+.footerMenu>ul>li>a{font-size:14px}
+.footerCopyright p{font-size:12px}
+.footerCopyright{padding-block:15px}
+.homeCommentHeader{padding-right:50px}
+.homeTrailerText>strong{font-size:42px;line-height:50px}
+.homeAboutSect .aboutBg .tree{width:190px;left:-70px;bottom:-70px}
+.homeAboutSect .container-md{gap:80px}
+.homeAboutSect .aboutBg{width:calc(100% - 460px - 80px)}
+.homeAboutSect .aboutText{width:500px}
+.homeAboutSect .aboutText .title>strong{font-size:35px}
+.homeAboutSect .aboutText{width:460px}
+.homeAboutSect .aboutBg .bg.bg1{height:400px}
+.homeAboutSect .aboutBg .bg.bg2{height:420px}
+.homeAboutSect .aboutBg .bg::before{width:calc(100% - 36px);height:calc(100% - 50px)}
+.homeAboutSect .aboutText p{line-height:32px}
+.homeRoomSect{margin-top:150px}
+.subText p{font-size:16px;line-height:30px;margin-bottom:35px}
+.hotelPageTrailer{height:420px}
+.activitiesPage ul>li .text{width:520px}
+.activitiesPage ul>li .bg{width:calc(100% - 520px - 40px)}
+.activitiesPage ul>li{gap:40px}
+.roomGallery .item{height:310px}
+.roomDetailProperty>ul>li>span{font-size:16px;line-height:22px}
+.roomDetailProperty>ul>li.price>p>strong{font-size:28px}
+.roomDetailProperty{margin-bottom:100px}
+.formDefault{width:360px}
+.contactPage-formtext .text>p{font-size:16px;line-height:30px;margin-bottom:20px}
+.contactPage-formtext .text>strong{font-size:34px;line-height:40px}
+.contactPage-formtext .text{width:390px}
+.contactFormPage-img{width:470px}
+.contactPage-formtext{padding:35px 50px}
+}
+@media only screen and (max-width:1280px){
+.activitiesPage ul>li .text{width:450px}
+.activitiesPage ul>li .bg{width:calc(100% - 450px - 40px)}
+.activitiesPage ul>li .text>p{font-size:14px;line-height:30px}
+.galleryPage ul>li{height:200px}
+.contactFormPage-img{display:none}
+.contactAddress{padding:0}
+.contactAddress ul>li>a.directions{font-size:16px;width:155px;height:50px}
+.contactAddress ul>li>a>p{font-size:14px;line-height:24px}
+}
+@media only screen and (max-width:1200px){
+.topMenu>ul{gap:25px}
+.topMenu>ul>li>a{font-size:18px}
+.sticky .header .topMenu>ul>li>a{font-size:18px}
+.logo{width:140px}
+.sticky .header .logo{width:140px}
+.headerResBtn>a{font-size:12px;padding:10px 16px}
+.headerResBtn>a>i{width:22px}
+.headerLang>strong{font-size:15px}
+.homeScrollDown{left:15px;font-size:14px}
+.homeSlide .item .slogan>strong{font-size:46px;line-height:60px}
+.homeSlide .item .slogan{width:550px}
+.homeAboutSect .aboutBg .bg.bg2{height:310px}
+.homeAboutSect .aboutText{width:400px}
+.homeAboutSect .aboutText .title>strong{font-size:32px;line-height:42px}
+.homeAboutSect .aboutText .title>span{font-size:14px}
+.homeAboutSect .aboutText p{font-size:14px;line-height:30px}
+.homeAboutSect .container-md{gap:40px;padding-top:70px}
+.homeAboutSect .aboutBg{width:calc(100% - 400px - 40px)}
+.homeAboutSect .aboutBg .bg.bg1{margin-top:50px;height:320px}
+.homeAboutSect .aboutBg .tree{display:none}
+.homeRoomSect{margin-top:100px}
+.titleStyle>strong{font-size:40px;padding-left:80px}
+.titleStyle>strong::before{width:60px}
+.titleStyle>p{font-size:14px;line-height:25px}
+.roomItem>a>.bgHidden>.bg{height:250px}
+.roomItem>a>.bottomText>.title>strong{font-size:16px}
+.roomItem>a>.bottomText{gap:5px;padding:18px}
+.roomItem>a>.bottomText>.price>.priceActive>strong{font-size:22px}
+.owl-nav{display:none}
+.homeTrailerBg{height:640px}
+.homeTrailerText>p{font-size:14px;line-height:25px;margin-bottom:15px}
+.homeTrailerText>strong{font-size:38px;line-height:45px;margin-bottom:25px}
+.homeCommentSect .titleStyle>strong{font-size:35px}
+.homeCommentSect{width:calc(100% - 5%)}
+.homeCommentSlide .owl-dots{margin-left:0;margin-top:25px}
+.homeActiviteList>li{margin-right:20px;margin-bottom:20px;width:calc(33.33% - 13.33px)}
+.homeActiviteList{height:500px}
+.homeActiviteList>li>a>.text>strong{font-size:20px;line-height:24px}
+.homeActiviteList>li>a>.text{bottom:-80px}
+.footerLogo>p{font-size:12px;line-height:22px;width:320px}
+.footerTitle{font-size:18px;line-height:22px}
+.footerContact,.footerMenus{margin-top:30px}
+.footerMenus{gap:40px}
+.footerMenu>ul>li>a{font-size:12px}
+.footerContact>ul>li>a{font-size:12px;line-height:20px}
+.headerResBtn>a>span{display:none}
+.homeSlide .item{max-height:600px}
+.homeSect1::before{height:calc(100% - 35%)}
+.headerBanner .headTitle{font-size:32px;letter-spacing:17px}
+.headerBanner .headTitle::before{height:50px}
+.headerBanner{height:170px}
+.subText strong:not(p>strong){font-size:28px}
+.hotelPropertySect ul{margin-top:28px}
+.hotelPropertySect ul{gap:20px 50px}
+.hotelPropertySect ul>li{width:calc(33.33% - 50px)}
+.ourHotelPage{padding-top:50px;padding-bottom:100px}
+.ourHotelPage .hotelPropertySect{margin-top:35px}
+.hotelPageTrailer{height:360px;margin-top:40px}
+.activitiesPage ul>li .text>strong{font-size:28px;margin-bottom:10px}
+.activitiesPage ul>li .text{width:420px}
+.activitiesPage ul>li .bg{width:calc(100% - 420px - 40px)}
+.roomGallery .item{height:250px}
+}
+@media only screen and (max-width:820px){
+.topMenu{position:fixed;z-index:10;background:var(--MainGradient);right:-100%;top:var(--HeaderHeight);width:100%;padding:24px;box-sizing:border-box;transition:all ease-in-out .5s;transition-delay:.5s}
+.homeScrollDown{display:none}
+.homeSlide .item .slogan{left:30px;bottom:70px}
+.homeSlide .slick-dots{left:30px;bottom:30px}
+.homeSlide .item .slogan>strong{font-size:40px;line-height:55px}
+.homeSlide .item .slogan>span{font-size:14px}
+.homeSect1 .slideCounter{font-size:32px;bottom:30px}
+.homeAboutSect .aboutText{width:100%}
+.homeAboutSect .aboutBg{width:100%;justify-content:center}
+.roomItem>a>.bottomText>.title>strong{font-size:18px}
+.roomItem>a>.bottomText{padding:18px}
+.homeRoomSect{margin-top:60px}
+.homeTrailerSect{margin-top:60px}
+.homeTrailerBg{width:100%;height:500px}
+.homeTrailerText{width:100%}
+.homeTrailerText>strong{font-size:32px;line-height:42px;margin-bottom:15px}
+.navSlideBtn{display:none}
+.homeActiviteSect{margin-top:50px}
+.homeActiviteList{display:flex;flex-flow:wrap;height:auto;gap:20px}
+.homeActiviteList>li{float:none}
+.homeActiviteList>li{height:210px;margin:0;width:calc(50% - 10px)}
+.homeActiviteList>li:first-child{width:100%;height:350px}
+.homeActiviteList>li>a>.text{bottom:0}
+.homeActiviteList>li>a>.text>p{display:none}
+.homeActiviteList>li>a:hover>.text>p{display:block}
+.homeActiviteList>li>a>.text>strong{font-size:22px}
+.footerCenter{flex-flow:wrap;gap:20px}
+.footerContact{width:100%}
+.footerLogo>p{width:100%}
+.menuBtn{position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;width:36px;height:32px;gap:8px}
+.menuBtn>span{position:relative;display:block;width:100%;height:3px;background-color:#fff;top:0;left:0;transform:rotate(0);transition:.3s all}
+.topMenuOpen .menuBtn>span:first-child{transform:rotate(45deg);top:11.5px}
+.topMenuOpen .menuBtn>span:last-child{transform:rotate(-45deg);top:-11.5px}
+.topMenuOpen .menuBtn>span:nth-child(2){opacity:0}
+.topMenu>ul{height:auto;flex-flow:wrap;gap:9px;transition:.4s all;transform:translate(0,100px);opacity:0}
+.topMenu>ul>li{width:100%}
+.topMenu>ul>li>a{padding:10px;border:solid 1px rgb(255 255 255 / 15%);justify-content:space-between}
+.topMenu>ul>li>.subMenu{position:relative;top:0;opacity:1;visibility:visible;padding:0;width:100%;transition:initial!important;display:none}
+.topMenu>ul>li>a.selected{background-color:rgb(255 255 255 / 90%);backdrop-filter:blur(10px);color:#17161e}
+.topMenu>ul>li>.subMenu>ul{padding:15px}
+.topMenu>ul>li>.subMenu>ul>li>a{font-size:14px}
+.topMenu>ul>li.open>a.selected::after{border-color:#17161e transparent transparent transparent}
+.topMenu>ul>li.open:hover>a.selected::after{transform:rotate(180deg)}
+.topMenuOpen .topMenu{right:0}
+.topMenuOpen .topMenu>ul{transition-delay:1.1s;opacity:1;transform:translate(0,0)}
+.topMenuOpen{overflow:hidden}
+.hotelPropertySect ul>li{width:calc(50% - 10px)}
+.hotelPropertySect ul{gap:20px}
+.activitiesPage ul>li .bg{width:100%;height:270px}
+.activitiesPage ul>li .text{width:100%}
+.activitiesPage ul>li{padding:20px;gap:15px}
+.activitiesPage ul>li .text>strong::before{display:none}
+.activitiesPage ul>li .text>strong{font-size:24px;line-height:32px;margin-bottom:8px}
+.activitiesPage ul{gap:22px}
+.roomDetailProperty>ul>li{width:calc(50% - 7.5px);height:auto}
+.roomDetailProperty>ul{gap:15px}
+.roomDetailProperty>ul>li::before{left:50%;top:100%;transform:translateX(-50%);display:none}
+.galleryPage ul>li:nth-child(even){top:0}
+.galleryPage ul>li{width:calc(50% - 10px);height:170px}
+.galleryPage ul{gap:20px}
+.contactAddress ul{flex-flow:wrap;gap:15px}
+.contactAddress ul>li{width:100%}
+.contactAddress ul>li>a>p span>br{display:none}
+.contactAddress ul>li>a>p>i{top:4px}
+.contactAddress ul>li>a.directions{width:100%}
+.contactAddress{margin-top:25px}
+.contactMap{height:380px}
+.contactPage-formtext .text{width:100%}
+.contactPage-formtext{padding:32px;flex-flow:wrap;gap:32px}
+.formDefault{width:100%}
+.headerLang{border:solid 1px rgb(255 255 255 / 15%);padding:10px;transition:.4s all;}
+.headerLang>ul{border-radius:0;padding-inline:4px;box-sizing:border-box;padding-top:35px;padding-bottom:10px;gap:5px;display:flex;flex-direction:column}
+.topMenuOpen .headerLang{transition-delay:1.1s;opacity:1;transform:translate(0,0)}
+.headerLang.open>ul{opacity:1;visibility:visible}
+.headerLang.open>strong::before{transform:rotate(225deg);top:7px;border-color:#17161e}
+.headerLang.open>strong{color:#17161e}
+.pulse{display:flex!important}
+.countdownHeader>.title{font-size:16px}
+.countdownHeader{gap:12px}
+.countdownHeader .countdown>li>span{font-size:20px}
+.countdownOpen .topMenu{top:calc(var(--HeaderHeight) + var(--countdownHeight))}
+.countdownHeader .close{right:0;padding:2px;top:0;width:24px}
+}
+@media only screen and (max-width:600px){
+:root{--HeaderHeight:90px}
+.homeSlide .item{max-height:450px}
+.homeSlide .item .slogan{width:100%;left:0;padding-left:20px;box-sizing:border-box;gap:8px;bottom:100px}
+.homeSlide .item .slogan>strong{font-size:30px;line-height:40px}
+.homeSlide .item .slogan>span{font-size:12px}
+.homeSect1 .slideCounter{right:30px;font-size:28px}
+.headerRight{gap:12px}
+.homeAboutSect .container-md{padding-top:40px}
+.homeAboutSect .aboutText .title>strong{font-size:28px;line-height:40px}
+.homeAboutSect .aboutText .title{margin-bottom:12px}
+.homeAboutSect .aboutText p{margin-bottom:12px}
+.homeAboutSect .aboutBg .bg.bg1{height:auto;position:absolute;width:150px;bottom:-35px;z-index:1;left:0;margin-top:0}
+.homeAboutSect .aboutBg .bg.bg2{height:auto;width:85%;float:right}
+.homeAboutSect .aboutBg .bg::before{width:calc(100% - 20px);height:calc(100% - 30px)}
+.titleStyle>strong{font-size:32px;padding-left:50px}
+.titleStyle>strong::before{width:40px}
+.homeTrailerBg{height:420px}
+.homeTrailerBg::before{width:calc(100% - 50px);height:calc(100% - 50px)}
+.homeTrailerText{padding:24px}
+.homeCommentSect .titleStyle>strong{font-size:28px}
+.homeCommentSlide{margin-top:20px}
+.homeActiviteList>li>a{padding:14px}
+.homeActiviteList>li{height:250px!important;width:100%}
+.footerLogo>a{display:flex;justify-content:center}
+.footerLogo>a>img{width:150px}
+.footerLogo{margin-top:15px}
+.footerMenus{justify-content:center}
+.footerLogo>p{text-align:center}
+.footerCenter{gap:7px}
+.logo{width:120px}
+.sticky .header .logo{width:120px}
+.headerBanner .headTitle{font-size:24px;letter-spacing:10px}
+.headerBanner{height:150px}
+.subText p{font-size:14px;line-height:27px;margin-bottom:25px}
+.hotelPropertySect ul>li{width:100%;font-size:14px}
+.hotelPropertySect ul{gap:14px;margin-top:15px}
+.subText strong:not(p>strong){font-size:26px}
+.ourHotelPage .hotelPropertySect{margin-top:25px}
+.playBtn>span{font-size:20px}
+.playBtn>i{width:52px;height:52px}
+.playBtn{gap:12px}
+.roomDetailSlide .roomItem{width:100%}
+.roomDetailSlideSect{max-width:90%;margin:auto;margin-top:30px}
+.roomDetailSlide{margin-top:20px}
+.roomDetailProperty{margin-bottom:40px;margin-top:30px}
+.roomDetailProperty>ul>li>span{font-size:14px}
+.roomDetailProperty>ul>li.price>p>strong{font-size:24px}
+.headerBanner .headTitle::before{display:none}
+.contactAddress ul>li>a>p>i{display:none}
+.contactPage-formtext .text>strong{font-size:28px;margin-bottom:10px}
+.contactPage-formtext{padding:24px}
+.contactPage-formtext .text>p{font-size:14px;line-height:28px}
+.form-text{height:42px}
+.homeSect1 .container{max-width:100%}
+.homeAboutSect .aboutBg{justify-content:flex-end;margin-bottom:15px}
+.roomsDetailPage{padding-bottom:50px}
+.homeAboutSect .aboutBg .bg>img{height:auto}
+.activiteScroll_m{overflow-x:auto}
+::-webkit-scrollbar{height:0}
+.homeActiviteList{flex-flow:inherit;width:1400px}
+.homeActiviteSect .container-md{float:right;max-width:95%}
+.countdownHeader>.title{display:none}
+.countdownHeader .title_m{display:block;color:#333;font-size:15px;font-weight:500}
+.countdownHeader{flex-direction:column;gap:5px}
+.countdownHeader .countdown>li>span{font-size:14px}
+.countdownHeader .countdown>li>p{font-size:9px}
+}
