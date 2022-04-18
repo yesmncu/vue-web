@@ -22,7 +22,6 @@
 </section>
 
 <HomeRoomSect data-aos="fade-up" data-aos-duration="800" />
-
 <section class="homeTrailerSect">
   <div class="homeTrailerBg" :style="{'background-image': 'url(' + require('../assets/images/homeTrailerBg.jpg') + ')'}"> <a href="#">
     <div class="playBtn" data-aos="zoom-in" data-aos-duration="800"> <i><img src="../assets/images/icons/playBtn.svg" alt=""></i> </div>
