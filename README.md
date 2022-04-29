@@ -1,4 +1,4 @@
-# website1
+# vue web app
 
 ## Project setup
 ```
