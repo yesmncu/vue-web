@@ -6,6 +6,7 @@ import OdalarimizPage from '../page/OdalarimizPage.vue'
 import AktivitelerPage from '../page/AktivitelerPage.vue'
 import GaleriPage from '../page/GaleriPage.vue'
 import IletisimPage from '../page/IletisimPage.vue'
+import RoomDetailPage from '../page/RoomDetail.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/iletisim',
     name: 'iletisim',
     component: IletisimPage
+  },
+  {
+    path: '/oda-detay',
+    name: 'oda-detay',
+    component: RoomDetailPage
   },
   {
     path: '*',

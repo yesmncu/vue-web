@@ -6,7 +6,7 @@
         </div>
        
         <VueSlickCarousel v-bind="settings" class="homeRoomSlide">
-        <div class="roomItem"> <a href="javascript:void(0)">
+        <div class="roomItem"> <router-link to="/oda-detay">
                     <div class="bgHidden">
                     <div class="bg" :style="{'background-image': 'url(' + require('../assets/images/rooms/standart-oda.jpg') + ')'}"></div>
                     </div>
@@ -16,8 +16,8 @@
                         <div class="priceActive"> <strong>250 TL</strong> 'den başlayan fiyatlar </div>
                         <span>300 TL</span> </div>
                     </div>
-                    </a> </div>
-                <div class="roomItem"> <a href="javascript:void(0)">
+                   </router-link> </div>
+                <div class="roomItem"> <router-link to="/oda-detay">
                     <div class="bgHidden">
                     <div class="bg" :style="{'background-image': 'url(' + require('../assets/images/rooms/nehir-manzarali-oda.jpg') + ')'}"></div>
                     </div>
@@ -27,8 +27,8 @@
                         <div class="priceActive"> <strong>350 TL</strong> 'den başlayan fiyatlar </div>
                         <span>440 TL</span> </div>
                     </div>
-                    </a> </div>
-                <div class="roomItem"> <a href="javascript:void(0)">
+                    </router-link> </div>
+                <div class="roomItem"> <router-link to="/oda-detay">
                     <div class="bgHidden">
                     <div class="bg" :style="{'background-image': 'url(' + require('../assets/images/rooms/jakuzili-ve-somineli-deluxe-oda.jpg') + ')'}"></div>
                     </div>
@@ -38,8 +38,8 @@
                         <div class="priceActive"> <strong>400 TL</strong> 'den başlayan fiyatlar </div>
                         <span>520 TL</span> </div>
                     </div>
-                    </a> </div>
-                <div class="roomItem"> <a href="javascript:void(0)">
+                    </router-link> </div>
+                <div class="roomItem"> <router-link to="/oda-detay">
                     <div class="bgHidden">
                     <div class="bg" :style="{'background-image': 'url(' + require('../assets/images/rooms/nehir-manzarali-oda.jpg') + ')'}"></div>
                     </div>
@@ -49,7 +49,7 @@
                         <div class="priceActive"> <strong>350 TL</strong> 'den başlayan fiyatlar </div>
                         <span>440 TL</span> </div>
                     </div>
-                    </a> </div>
+                    </router-link> </div>
          </VueSlickCarousel>
 
     </div>

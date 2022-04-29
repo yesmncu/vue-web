@@ -23,7 +23,7 @@
 
 <HomeRoomSect data-aos="fade-up" data-aos-duration="800" />
 <section class="homeTrailerSect">
-  <div class="homeTrailerBg" :style="{'background-image': 'url(' + require('../assets/images/homeTrailerBg.jpg') + ')'}"> <a href="#">
+  <div class="homeTrailerBg" :style="{'background-image': 'url(' + require('../assets/images/homeTrailerBg.jpg') + ')'}"> <a href="https://www.youtube.com/embed/t4ja5bJHN9E" data-fancybox>
     <div class="playBtn" data-aos="zoom-in" data-aos-duration="800"> <i><img src="../assets/images/icons/playBtn.svg" alt=""></i> </div>
     </a> </div>
   <div class="homeTrailerText"> <strong data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">İki Nehir Arasındaki Cennet</strong>

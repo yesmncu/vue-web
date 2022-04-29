@@ -250,16 +250,16 @@ button.slick-arrow.slick-next,button.slick-arrow.slick-prev{position:absolute;to
 }
 .subRoom .headerBanner .headTitle{letter-spacing:normal}
 .roomsDetailPage{position:relative;display:block;padding-top:50px;padding-bottom:100px}
-.roomGallery .item{position:relative;display:block;width:100%;height:400px}
+.roomGallery .item{position:relative;display:block;width:100%;height:400px; padding-inline: 16px; box-sizing: border-box;}
 .roomGallery .item .bg{position:relative;display:block;width:100%;height:100%;background-size:cover;background-repeat:no-repeat;background-position:center}
-.roomGallery .owl-nav .owl-prev{background-image:url(../images/icons/prev2.svg)!important;left:-40px}
-.roomGallery .owl-nav .owl-next{background-image:url(../images/icons/next2.svg)!important;right:-40px}
-.roomGallery .owl-nav .owl-next,.roomGallery .owl-nav .owl-prev{width:15px;height:26px}
-.roomGallery .owl-dots .owl-dot.active{background-color:#009f5e!important}
-.roomGallery .owl-dots .owl-dot{background-color:#bfccc4!important}
+.roomGallery button.slick-arrow.slick-prev{background-image:url(../images/icons/prev2.svg)!important;left:-40px}
+.roomGallery button.slick-arrow.slick-next{background-image:url(../images/icons/next2.svg)!important;right:-40px}
+.roomGallery button.slick-arrow.slick-next,.roomGallery button.slick-arrow.slick-prev{width:15px;height:26px}
+.roomGallery .slick-dots li.slick-active button{background-color:#009f5e!important}
+.roomGallery .slick-dots button{background-color:#bfccc4!important}
 .roomGallery{margin-bottom:34px}
 .roomDetailSlide{margin-top:40px}
-.roomDetailSlide .roomItem{width:320px}
+.roomDetailSlide .roomItem{width:320px !important; padding: 0; margin-right:32px;}
 .roomDetailSlide .roomItem>a>.bgHidden>.bg{height:250px}
 .roomDetailSlide .roomItem>a>.bottomText>.title>strong{font-size:18px;line-height:22px}
 .roomDetailSlide .roomItem>a>.bottomText{padding:20px}
